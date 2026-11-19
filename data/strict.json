@@ -1,0 +1,46 @@
+{
+  "postings": [
+    {
+      "id": "P1",
+      "text": "两年及以上相关经历，或独立完成一个完整交付项目。非必需：持职业证书者优先。"
+    }
+  ],
+  "statements": [
+    {
+      "id": "S1",
+      "student": "A1",
+      "source": "简历",
+      "text": "参与星港项目培训，团队已验收，我未参与上线。"
+    },
+    {
+      "id": "S2",
+      "student": "A1",
+      "source": "证明",
+      "text": "A1 独立组织星港交付验收，另有上线同事执行上线。"
+    },
+    {
+      "id": "S4",
+      "student": "A1",
+      "source": "公开证明节录",
+      "text": "A1 参与了星港项目交付评审；执行期间为暑期。"
+    }
+  ],
+  "permissions": [
+    {
+      "document": "S1",
+      "readers": ["student", "advisor", "employer"],
+      "uses": ["counselling", "application"]
+    },
+    {
+      "document": "S2",
+      "readers": ["student", "advisor"],
+      "uses": ["counselling"]
+    },
+    {
+      "document": "S4",
+      "readers": ["student", "advisor", "employer"],
+      "uses": ["counselling", "application"],
+      "shareable": "参与交付评审这一事实"
+    }
+  ]
+}

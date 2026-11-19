@@ -8,6 +8,7 @@
   },
   "scripts": {
     "inspect:data": "node scripts/inspect.mjs",
+    "demo": "node scripts/demo.mjs",
     "test": "node --test"
   }
 }
